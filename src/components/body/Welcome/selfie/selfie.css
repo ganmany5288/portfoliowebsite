@@ -1,0 +1,16 @@
+.selfie-container{
+    background-color: #CCCCC4;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+}
+
+/* Maybe better image styling could be done here */
+/* Or rotating image can be done here */
+.selfie-container > img {
+    width: 100%;
+    height: 100vh;
+}

@@ -1,0 +1,10 @@
+.contact-container{
+    background-color: #AE8A8C;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
