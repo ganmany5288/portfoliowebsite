@@ -1,6 +1,6 @@
 import React from "react"
 import './index.css'
-import About from "../components/body/about"
+import Project from "../components/body/projects"
 // Something with emotion/styled is preventing me from using it properly. I guess its time to do it the good ol' fashioned way
 import Navbar from "../components/Navbar/Navbar"
 import Welcome from "../components/body/Welcome/welcome"
@@ -15,7 +15,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Welcome />
-      <About />
+      <Project />
       {/* <h1>Monika</h1> */}
       <Home2 />
       <Funfact />
