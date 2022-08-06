@@ -1,12 +1,13 @@
 import React from "react"
 import './index.css'
-import Project from "../components/body/projects"
+import Project from "../components/body/Projects/projects"
 // Something with emotion/styled is preventing me from using it properly. I guess its time to do it the good ol' fashioned way
 import Navbar from "../components/Navbar/Navbar"
 import Welcome from "../components/body/Welcome/welcome"
 import Home2 from "../components/body/home"
 import Funfact from "../components/body/Funfact/funfact"
 import Contact from "../components/body/Contact/contact"
+import Experience from "../components/body/Experience/experience"
 
 
 
@@ -17,7 +18,8 @@ export default function Home() {
       <Welcome />
       <Project />
       {/* <h1>Monika</h1> */}
-      <Home2 />
+      <Experience />
+      {/* <Home2 /> */}
       <Funfact />
       <Contact />
     </div>
