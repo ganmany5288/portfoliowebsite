@@ -1,8 +1,8 @@
 import React from 'react'
-import './otherskills.css'
+import './skills.css'
 import ranni from '../../../images/ranni.jpg'
 
-function Otherskills(){
+function Skills(){
     return(
         <div className='otherskills-container'>
             <h1>Skills &amp; Proficiencies</h1>
@@ -21,4 +21,4 @@ function Otherskills(){
 }
 
 
-export default Otherskills;
+export default Skills;
