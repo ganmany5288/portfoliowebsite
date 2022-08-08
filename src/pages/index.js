@@ -8,6 +8,7 @@ import Home2 from "../components/body/home"
 import Funfact from "../components/body/Funfact/funfact"
 import Contact from "../components/body/Contact/contact"
 import Experience from "../components/body/Experience/experience"
+import Otherskills from "../components/body/OtherSkills/otherskills"
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Project />
       {/* <h1>Monika</h1> */}
       <Experience />
+      <Otherskills />
       {/* <Home2 /> */}
       <Funfact />
       <Contact />
