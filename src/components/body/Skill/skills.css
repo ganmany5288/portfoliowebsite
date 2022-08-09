@@ -1,11 +1,11 @@
-.otherskills-container{
+.skills-container{
     background-color: #A87550;
     text-align: center;
     height: 100vh;
     width: 100%;
 }
 
-.otherskills-container > h1{
+.skills-container > h1{
     font-size: 90px;
     color: white;
     /* margin-top: 5rem; */
@@ -33,7 +33,7 @@
 .skill-image-placeholder{
     width: 100%;
     /* height: 90%; */
-    height: calc(100%-999.8rem);
+    height: calc(100%-6.8rem);
     object-fit: scale-down;
     border-radius: 1rem;
 }

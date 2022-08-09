@@ -4,7 +4,7 @@ import ranni from '../../../images/ranni.jpg'
 
 function Skills(){
     return(
-        <div className='otherskills-container'>
+        <div className='skills-container'>
             <h1>Skills &amp; Proficiencies</h1>
             <div className='proficient-grid'>
                 <a className='skill' href='https://www.lttstore.com'>
