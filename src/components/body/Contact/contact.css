@@ -1,10 +1,7 @@
 .contact-container{
     background-color: #AE8A8C;
-    height: 100vh;
+    height: 75vh;
     width: 100%;
-    /* text-align: center; */
-    /* padding-top: 4000px; */
-
 }
 
 .contact-info{
@@ -12,15 +9,14 @@
     max-width: 1280px;
     margin: 0 auto;
     /* background-color: red; */
-    padding-top: 65px;
-    /* margin-top: 65px; */
+    padding-top: 75px;
 }
 
 .contact-info > h1{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 60;
-    font-size: 100px;
+    font-size: 75px;
     /* margin-top: 65px; */
 }
 
@@ -28,17 +24,37 @@
     width:100%;
     background-color: #f9f3e5;
     border-radius: 10px;
-    /* margin-top: 65px; */
-    /* padding: ; */
 }
 
+hr{
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    color: #ab6445;
+}
+
+.contact-info-component{
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    color: #ab6445;
+    font-size: 25px;
+    padding-top: 45px;
+    padding-bottom: 65px;
+    /* background-color: cadetblue; */
+}
+.react-icons{
+    margin-left: 4rem;
+    margin-right: 0;
+}
 .contacts{
     display: flex;
     flex-wrap: wrap-reverse;
-    margin-top: 4rem;
+    margin-top: 3rem;
+    /* margin: 0 auto; */
 }
 
-.test{
-    display: flex;
-    margin-bottom: 50px;
+.contacts > p {
+    margin: auto;
+    margin-left: 0;
 }
