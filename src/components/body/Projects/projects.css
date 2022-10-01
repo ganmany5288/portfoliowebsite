@@ -13,7 +13,7 @@
     gap: 2rem 2rem;
     grid-template-columns: auto auto auto;
     padding: 2em;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 90vw;
     height: 85vh;
     margin-bottom: 10px;

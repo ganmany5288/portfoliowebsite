@@ -16,7 +16,8 @@ function Experience(){
                         <div className='experience'></div>
                         <div className='experience'></div>
                         <div className='experience'></div>
-                        <div className='experience'></div>                    </div>
+                        <div className='experience'></div>                    
+                    </div>
                 </div>
             </div>
         </div>

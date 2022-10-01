@@ -3,7 +3,7 @@ import './projects.css'
 
 function Project() {
     return(
-        <div className='projects-container'>
+        <section className='projects-container'>
             <div className='projects-grid'>
                 <div className='project-items'>
                     <div className='item-image'></div>
@@ -24,7 +24,7 @@ function Project() {
                     <div className='item-image'></div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
