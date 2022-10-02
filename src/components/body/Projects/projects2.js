@@ -12,14 +12,13 @@ function Projects2() {
                         <h2 className='section-heading'>Projects Section</h2>
                     </div>
                 </div>
-                <div className='row projects-grid'>
+                <div className='projects-grid'>
                     <Projectitems h4t={"Round Icons"} pt={"Graphic Design"}/>
                     <Projectitems h4t={"Linus"} pt={"Tech Tips"}/>
                     <Projectitems h4t={"Linus"} pt={"Drop Tips"}/>
                     <Projectitems h4t={"Linus"} pt={"Cat Tips"}/>
                     <Projectitems h4t={"Linus"} pt={"Cat Tips"}/>
                     <Projectitems h4t={"Linus"} pt={"Cat Tips"}/>
-
                 </div>
             </div>
         </section>

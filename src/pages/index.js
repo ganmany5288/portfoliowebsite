@@ -1,6 +1,5 @@
 import React from "react"
 import './index.css'
-import Project from "../components/body/Projects/projects"
 // Something with emotion/styled is preventing me from using it properly. I guess its time to do it the good ol' fashioned way
 import Navbar from "../components/Navbar/Navbar"
 import Welcome from "../components/body/Welcome/welcome"
