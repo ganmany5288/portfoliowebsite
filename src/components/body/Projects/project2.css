@@ -1,3 +1,13 @@
+.section-heading{
+    max-width: 640px;
+    margin: 0 auto 4rem auto;
+    color: white;
+    border-bottom: 0.2rem solid white;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
 .projects-container {
     background-color: #7498ab;
     /* height: 90vh; */
@@ -10,41 +20,31 @@
 .projects-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-    background-color: aquamarine;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
 }
-
-/* .projects-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
-    width: 100%;
-    background-color: red;
-    max-width: 1280px;
-    margin: 0 auto;
-    margin-bottom: 6rem;
-} */
 
 
 
 
 .project-items{
-    right: 0;
+    /* right: 0; */
     margin: 0 0 15px;
+    /* background-color: red; */
 }
 
-.project-items .project-link{
+.project-link{
     display: block;
     position: relative;
     margin: 0 auto;
+    margin-bottom: -4px;
     max-width: 400px;
 }
 
-.project-items .project-caption{
+.project-caption{
     display: block;
-    position: relative;
+    /* position: relative; */
     margin: 0 auto;
     max-width: 400px;
     background-color: #fff;
