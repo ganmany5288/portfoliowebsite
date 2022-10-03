@@ -19,9 +19,9 @@ export default function Home() {
       {/* <Project /> */}
       <Projects2 />
       <Experience />
-      <Skills />
+      {/* <Skills />
       <Otherskill />
-      <Contact />
+      <Contact /> */}
     </div>
   )
 }
