@@ -13,9 +13,9 @@ function Skills(){
                     <div className='skills-heading'>
                         <h1>Technical Skills</h1>
                     </div>
-                    <div className='skils-legend'>
-                        <h1>Legend</h1>
-                        <div>
+                    <div className='skills-legend'>
+                        <h1>Legend: </h1>
+                        <div className='skills-legend-grid'>
                             <div>1. Started Leaning</div>
                             <div>2. Familiar with concepts</div>
                             <div>3. Able to build small projects</div>
@@ -30,7 +30,7 @@ function Skills(){
                         <div className='skills-chart-grid'>
                             <div className='skill'>
                                 <div className='skill-name'>
-                                    <h1>HTML</h1>
+                                    <h1>HTML: </h1>
                                 </div>
                                 <div className='skill-bar'>
                                     <div></div>

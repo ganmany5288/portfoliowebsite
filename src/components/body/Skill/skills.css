@@ -5,24 +5,31 @@
     width: 100%;
 }
 
-.skills-container-container{
-    max-width: 1280px;
-}
-
 .skills-heading{
-    max-width: 640px;
+    max-width: 550px;
     margin: 0 auto 4rem auto;
     color: white;
     border-bottom: 0.2rem solid white;
-    font-size: 60px;
+    font-size: 35px;
     font-weight: bolder;
 }
+.skills-legend{
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+    font-size: 25px;
+}
 
+.skills-legend > h1{
+    max-width: 200px;
+    border-bottom: 0.2rem solid white;
+}
 
 .skills-page{
     background-color: #a87550;
     text-align: center;
-    padding: 5rem 3rem;
+    padding: 6rem 4rem;
     width: 100%;
 }
 
@@ -32,8 +39,8 @@
 
 .skill-top{
     width: 100%;
-    background-color: red;
-    height: 20px;
+    /* background-color: red; */
+    /* height: 20px; */
     margin-bottom: 10px;
 
 }
@@ -41,6 +48,6 @@
 .skill-btm{
     width: 100%;
     background-color: yellow;
-    height: 30px;
+    /* height: 30px; */
     margin: 0 auto;
 }
