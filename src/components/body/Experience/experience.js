@@ -17,9 +17,9 @@ function Experience(){
                             <div className='row-display'>
                                 <div className='card column-page2 card-l'>
                                     <div>
-                                        <h1 class='card-title chain-same-line'>NewMode - Quality Assurance Analyst</h1>
-                                        <h1 class='card-sub'>XXXX to XXXX</h1>
-                                        <h1 class='card-desc'>This is my job description</h1>
+                                        <h1 className='card-title chain-same-line'>NewMode - Quality Assurance Analyst</h1>
+                                        <h1 className='card-sub'>XXXX to XXXX</h1>
+                                        <h1 className='card-desc'>This is my job description</h1>
                                     </div>
                                     <div className='portion-bottom'>
 
@@ -27,9 +27,9 @@ function Experience(){
                                 </div>
                                 <div className='card column-page2 card-r'>
                                     <div>
-                                        <h1 class='card-title chain-same-line'>NewMode - Quality Assurance Analyst</h1>
-                                        <h1 class='card-sub'>XXXX to XXXX</h1>
-                                        <h1 class='card-desc'>This is my job description</h1>
+                                        <h1 className='card-title chain-same-line'>NewMode - Quality Assurance Analyst</h1>
+                                        <h1 className='card-sub'>XXXX to XXXX</h1>
+                                        <h1 className='card-desc'>This is my job description</h1>
                                     </div>
                                     <div className='portion-bottom'>
 
@@ -43,9 +43,9 @@ function Experience(){
                             <div className='row-display'>
                                 <div className='card column-page2 card-sing'>
                                     <div>
-                                        <h1 class='card-title chain-same-line'>NewMode - Quality Assurance Analyst</h1>
-                                        <h1 class='card-sub'>XXXX to XXXX</h1>
-                                        <h1 class='card-desc'>This is my job description</h1>
+                                        <h1 className='card-title chain-same-line'>NewMode - Quality Assurance Analyst</h1>
+                                        <h1 className='card-sub'>XXXX to XXXX</h1>
+                                        <h1 className='card-desc'>This is my job description</h1>
                                     </div>
                                     <div className='portion-bottom'>
 
