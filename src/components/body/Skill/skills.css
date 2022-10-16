@@ -1,18 +1,25 @@
-.skills-container{
-    background-color: #A87550;
+.skills-page{
+    background-color: #a87550;
     text-align: center;
-    height: 100vh;
+    padding: 3rem 4rem;
     width: 100%;
 }
-
 .skills-heading{
     max-width: 550px;
-    margin: 0 auto 4rem auto;
+    margin: 0 auto 5rem auto;
     color: white;
     border-bottom: 0.2rem solid white;
     font-size: 35px;
     font-weight: bolder;
 }
+
+.skill-container{
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 20px; */
+}
+
+
 .skills-legend{
     text-align: left;
     max-width: 1000px;
@@ -21,33 +28,57 @@
     font-size: 25px;
 }
 
-.skills-legend > h1{
-    max-width: 200px;
-    border-bottom: 0.2rem solid white;
-}
 
-.skills-page{
-    background-color: #a87550;
-    text-align: center;
-    padding: 6rem 4rem;
+.skill-left{
     width: 100%;
+    flex: 1;
 }
 
-.skill-container{
-    /* max-width: 1440px; */
-}
-
-.skill-top{
-    width: 100%;
-    /* background-color: red; */
-    /* height: 20px; */
-    margin-bottom: 10px;
-
-}
-
-.skill-btm{
+.skill-right{
     width: 100%;
     background-color: yellow;
-    /* height: 30px; */
-    margin: 0 auto;
+    flex: 2;
+    padding: 0.7rem;
+}
+
+.skills-chart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin: 0.7rem; */
+    /* background-color: red; */
+    max-height: 1080px;
+    height: 100%;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+
+.skill-bar{
+    display:inline-block;
+    margin-left: 20px;
+}
+
+
+.yes{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    background-color: red;
+    /* margin-top: 20px; */
+    margin-right: 20px;
+}
+
+.no{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    background-color: blue;
+    /* margin-top: 20px; */
+    margin-right: 20px;
 }

@@ -8,11 +8,11 @@ function Skills(){
         //     <h1 className='skills-heading'>Technical Skills</h1>
         // </div>
         <div className='skills-page'>
+            <div className='skills-heading'>
+                <h1>Technical Skills</h1>
+            </div>
             <div className='skill-container'>
-                <div className='skill-top'>
-                    <div className='skills-heading'>
-                        <h1>Technical Skills</h1>
-                    </div>
+                <div className='skill-left'>
                     <div className='skills-legend'>
                         <h1>Legend: </h1>
                         <div className='skills-legend-grid'>
@@ -25,21 +25,32 @@ function Skills(){
                         </div>
                     </div>
                 </div>
-                <div className='skill-btm'>
+                <div className='skill-right'>
                     <div className='skills-chart'>
-                        <div className='skills-chart-grid'>
-                            <div className='skill'>
-                                <div className='skill-name'>
-                                    <h1>HTML: </h1>
-                                </div>
-                                <div className='skill-bar'>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                </div>
+                        <div className='skill'>
+                            <div className='skill-name'>
+                                <h1>HTML: </h1>
+                            </div>
+                            <div className='skill-bar'>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div className='skill'>
+                            <div className='skill-name'>
+                                <h1>HTML: </h1>
+                            </div>
+                            <div className='skill-bar'>
+                                <div className='yes'></div>
+                                <div className='yes'></div>
+                                <div className='yes'></div>
+                                <div className='yes'></div>
+                                <div className='yes'></div>
+                                <div className='no'></div>
                             </div>
                         </div>
                     </div>
