@@ -36,7 +36,7 @@
 
 .skill-right{
     width: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
     flex: 2;
     padding: 0.7rem;
 }
@@ -45,8 +45,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* margin: 0.7rem; */
-    /* background-color: red; */
     max-height: 1080px;
     height: 100%;
 }
@@ -54,31 +52,70 @@
 .skill{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
+    /* max-width: 510px; */
 }
 
 .skill-bar{
     display:inline-block;
+    margin: 0 auto;
     margin-left: 20px;
 }
 
 
 .yes{
     display: inline-block;
-    width: 44px;
-    height: 44px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
     background-color: red;
-    /* margin-top: 20px; */
-    margin-right: 20px;
+    margin-right: 4px;
+    /* padding-top: 10px; */
 }
 
 .no{
     display: inline-block;
-    width: 44px;
-    height: 44px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
     background-color: blue;
-    /* margin-top: 20px; */
-    margin-right: 20px;
+    margin-right: 4px;
+    /* padding-top: 10px; */
+}
+
+.skills-chart-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
+    width: 100%;
+    margin: 0 auto;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.skill-item{
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    /* margin: 0 auto; */
+    /* background-color: aqua; */
+    /* max-width: 460px; */
+}
+
+.skill-item > span{
+    /* display: inline-block; */
+    width: 120px;
+    font-size: 35px;
+    /* margin-bottom: 100px; */
+}
+
+
+.skill-item-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    margin-left: 10px;
 }

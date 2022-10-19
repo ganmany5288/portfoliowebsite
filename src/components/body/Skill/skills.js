@@ -26,25 +26,21 @@ function Skills(){
                     </div>
                 </div>
                 <div className='skill-right'>
-                    <div className='skills-chart'>
-                        <div className='skill'>
-                            <div className='skill-name'>
-                                <h1>HTML: </h1>
-                            </div>
-                            <div className='skill-bar'>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
+                    <div className='skills-chart-grid'>
+                        <div className='skill-item'>
+                            <span>HTML: </span>
+                            <div className='skill-item-bar'>
+                                <div className='yes'></div>
+                                <div className='yes'></div>
+                                <div className='yes'></div>
+                                <div className='yes'></div>
+                                <div className='yes'></div>
+                                <div className='no'></div>
                             </div>
                         </div>
-                        <div className='skill'>
-                            <div className='skill-name'>
-                                <h1>HTML: </h1>
-                            </div>
-                            <div className='skill-bar'>
+                        <div className='skill-item'>
+                            <span>HTML: </span>
+                            <div className='skill-item-bar'>
                                 <div className='yes'></div>
                                 <div className='yes'></div>
                                 <div className='yes'></div>
@@ -59,6 +55,5 @@ function Skills(){
         </div>
     )
 }
-
 
 export default Skills;
