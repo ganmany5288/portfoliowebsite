@@ -4,9 +4,6 @@ import ranni from '../../../images/ranni.jpg'
 
 function Skills(){
     return(
-        // <div className='skills-container'>
-        //     <h1 className='skills-heading'>Technical Skills</h1>
-        // </div>
         <div className='skills-page'>
             <div className='skills-heading'>
                 <h1>Technical Skills</h1>
@@ -15,7 +12,7 @@ function Skills(){
                 <div className='skill-left'>
                     <div className='skills-legend'>
                         <h1>Legend: </h1>
-                        <div className='skills-legend-grid'>
+                        <div className='skills-legend-list'>
                             <div>1. Started Leaning</div>
                             <div>2. Familiar with concepts</div>
                             <div>3. Able to build small projects</div>
@@ -25,32 +22,104 @@ function Skills(){
                         </div>
                     </div>
                 </div>
-                <div className='skill-right'>
-                    <div className='skills-chart-grid'>
-                        <div className='skill-item'>
-                            <span>HTML: </span>
-                            <div className='skill-item-bar'>
-                                <div className='yes'></div>
-                                <div className='yes'></div>
-                                <div className='yes'></div>
-                                <div className='yes'></div>
-                                <div className='yes'></div>
-                                <div className='no'></div>
+                <div className='skill-right-container'>
+                    <div className='skill-right-flex'>
+                        <div className='flex'>
+                            <div className='row-display'>
+                                <div className='card column-page2 card-l'>
+                                    <div className='skill-item'>
+                                        <span>HTML: </span>
+                                        <div className='skill-item-bar'>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='no'></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='card column-page2 card-r'>
+                                    <div className='skill-item'>
+                                        <span>HTML: </span>
+                                        <div className='skill-item-bar'>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='no'></div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
                             </div>
                         </div>
-                        <div className='skill-item'>
-                            <span>HTML: </span>
-                            <div className='skill-item-bar'>
-                                <div className='yes'></div>
-                                <div className='yes'></div>
-                                <div className='yes'></div>
-                                <div className='yes'></div>
-                                <div className='yes'></div>
-                                <div className='no'></div>
+                        <div className='flex'>
+                            <div className='row-display'>
+                                <div className='card column-page2 card-l'>
+                                    <div className='skill-item'>
+                                        <span>HTML: </span>
+                                        <div className='skill-item-bar'>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='no'></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='card column-page2 card-r'>
+                                    <div className='skill-item'>
+                                        <span>HTML: </span>
+                                        <div className='skill-item-bar'>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='no'></div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div className='flex'>
+                            <div className='row-display'>
+                                <div className='card column-page2 card-l-bottom'>
+                                    <div className='skill-item'>
+                                        <span>HTML: </span>
+                                        <div className='skill-item-bar'>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='no'></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='card column-page2 card-r-bottom'>
+                                    <div className='skill-item'>
+                                        <span>HTML: </span>
+                                        <div className='skill-item-bar'>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='yes'></div>
+                                            <div className='no'></div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     )
