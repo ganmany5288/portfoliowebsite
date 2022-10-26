@@ -90,7 +90,7 @@ function Skills(){
                             <div className='row-display'>
                                 <div className='card column-page2 card-l-bottom'>
                                     <div className='skill-item'>
-                                        <span>HTML: </span>
+                                        <span>JavaScript: </span>
                                         <div className='skill-item-bar'>
                                             <div className='yes'></div>
                                             <div className='yes'></div>
