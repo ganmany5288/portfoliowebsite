@@ -6,8 +6,7 @@ function Intro(){
     return(
         <div className='intro-container'>
             <h1>Hey I'm James!</h1>
-            <p>web developer</p>
-            <p>I think..</p>
+            <p>software developer</p>
         </div>
     )
 }
