@@ -7,7 +7,7 @@ function Welcome(){
     return(
         <div className='welcome-container'>
             <Intro />
-            {/* <Selfie /> */}
+            <Selfie />
         </div>
     )
 }

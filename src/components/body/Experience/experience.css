@@ -4,6 +4,8 @@
     height: fit-content;
     display: flex;
     flex-direction: row;
+    align-content: center;
+    justify-content: center;
 }
 
 .page-exp-l{

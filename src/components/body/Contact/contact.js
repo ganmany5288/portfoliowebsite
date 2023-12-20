@@ -33,9 +33,6 @@ function Contact(){
                                 <a href = "https://github.com/ganmany5288" target="_blank">
                                     <FaGithub />  
                                 </a>
-                                <a href = "https://twitter.com/jamestang9" target="_blank">
-                                    <FaTwitter />
-                                </a>
                             </div>
                         </IconContext.Provider>
                     </div>

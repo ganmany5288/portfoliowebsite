@@ -1,7 +1,7 @@
 .intro-container{
     /* background-color: red; */
     height: 100vh;
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,16 +11,22 @@
 
 
 .intro-container > h1 {
-    color: white;
-    font-size: 80px;
+    color: #f0f0f0;
+    font-size: 40px;
     margin-top: 0px;
     /* font-weight: bold; */
+    border-bottom: 0.2rem solid #f0f0f0;
+    margin-bottom: 2vh;
 }
 
 .intro-container > p{
     font-size: 30px;
     margin-top: 8px;
-    color: white;
-    /* text-align: right; */
-    /* width: 60%; */
+    color: #f0f0f0;
+}
+
+.intro-container > img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }

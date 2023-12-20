@@ -4,9 +4,6 @@ import './experience.css'
 function Experience(){
     return(
         <div className='page-exp'>
-            <div className='page-exp-l'>
-
-            </div>
             <div className='page-exp-r'>
                 <div className='page-exp-r-cont'>
                     <div className='page-header'>
